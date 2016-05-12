@@ -1,31 +1,17 @@
-#
-# Be sure to run `pod lib lint podTestLibrary.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = "podTestLibrary"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of podTestLibrary."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.name             = "podTestLibrary"       #名称
+  s.version          = "0.1.0"                #版本号
+  s.summary          = "Just Testing."        #简短介绍
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        Tust Testing  paivate Podspec
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/podTestLibrary"
+                       #主页，填写可以访问到的地址
+  s.homepage         = "https://github.com/ClearerMe/podTestLibrary"  
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "huxiao" => "huxiao@geek-zoo.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/podTestLibrary.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ClearerMe/podTestLibrary.git", :tag => "0.1.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
