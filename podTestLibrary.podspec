@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "podTestLibrary"       #名称
-  s.version          = "0.1.1"                #版本号
+  s.version          = "0.1.2"                #版本号
   s.summary          = "Just Testing."        #简短介绍
   s.description      = <<-DESC
                         Tust Testing  paivate Podspec
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "huxiao" => "huxiao@geek-zoo.com" }
-  s.source           = { :git => "https://github.com/ClearerMe/podTestLibrary.git", :tag => "0.1.0" }
+  s.source           = { :git => "https://github.com/ClearerMe/podTestLibrary.git", :tag => "0.1.2" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
