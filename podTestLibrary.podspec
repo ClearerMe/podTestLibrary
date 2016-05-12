@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/ClearerMe/podTestLibrary.git", :tag => "0.1.2" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  #s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '7.0'
   s.source_files = 'podTestLibrary/Classes/**/*'
   
   # s.resource_bundles = {
