@@ -38,23 +38,23 @@
 
 - (void)loadCache
 {
-	NSArray * items = [STICache objectForKey:[self cacheKey]];
+//	NSArray * items = [STICache objectForKey:[self cacheKey]];
 	
-	if ( items )
-	{
-        [self.items removeAllObjects];
-		[self.items addObjectsFromArray:items];
-	}
+//	if ( items )
+//	{
+//        [self.items removeAllObjects];
+//		[self.items addObjectsFromArray:items];
+//	}
 }
 
 - (void)saveCache
 {
-	[STICache setObject:self.items forKey:[self cacheKey]];
+//	[STICache setObject:self.items forKey:[self cacheKey]];
 }
 
 - (void)clearCache
 {
-	[STICache removeObjectForKey:[self cacheKey]];
+//	[STICache removeObjectForKey:[self cacheKey]];
 }
 
 @end

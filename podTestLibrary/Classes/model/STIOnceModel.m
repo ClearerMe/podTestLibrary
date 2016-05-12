@@ -24,17 +24,17 @@
 
 - (void)loadCache
 {
-	self.item = [STICache objectForKey:[self cacheKey]];
+//	self.item = [STICache objectForKey:[self cacheKey]];
 }
 
 - (void)saveCache
 {
-	[STICache setObject:self.item forKey:[self cacheKey]];
+//	[STICache setObject:self.item forKey:[self cacheKey]];
 }
 
 - (void)clearCache
 {
-	[STICache removeObjectForKey:[self cacheKey]];
+//	[STICache removeObjectForKey:[self cacheKey]];
 }
 
 @end
