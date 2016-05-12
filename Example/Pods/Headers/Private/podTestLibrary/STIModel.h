@@ -1,0 +1,1 @@
+../../../../../podTestLibrary/Classes/model/STIModel.h
