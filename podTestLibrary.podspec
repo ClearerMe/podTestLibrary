@@ -29,4 +29,18 @@ Pod::Spec.new do |s|
   s.subspec 'modell' do |m|
     m.source_files = 'podTestLibrary/Classes/model/*.{h,m}'
     end
+
+  s.subspec 'network' do |network|
+
+    network.source_files = 'podTestLibrary/Classes/network/STINetworkHeader.h'
+
+    network.subspec 'http' do |http|
+      http.subspec 'STINetwork' do |STINetwork|
+        STINetwork.source_files = 'podTestLibrary/Classes/network/http/STIHTTPNetwork/*'        
+        end
+      http.subspec 'vendor' do |vendor|
+        vendor.source_files = 'podTestLibrary/Classes/network/http/vendor/*'
+        end
+      end    
+    end  
 end
